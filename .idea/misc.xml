@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/drawable/ic_menu_penghuni.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/drawable/ic_menu_user.xml" value="0.132" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/drawable/search_layout.xml" value="0.132" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/drawable/shape1.xml" value="0.132" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/drawable/shape2.xml" value="0.1355" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_cek_status.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_contoh.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_cpembayaran.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_cpengaduan.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_cpenghuni.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_cunit.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_cuser.xml" value="0.25" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_homee.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_homee_pemilik.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_homee_penghuni.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_laporan_pembayaran.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_laporan_pengaduan.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_laporan_penghuni.xml" value="0.25" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_laporan_unit.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_laporan_user.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_pembayaran.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_pengaduan.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_penghuni.xml" value="0.33" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_penghunilist.xml" value="0.1" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_unit.xml" value="0.25" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_upembayaran.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_upengaduan.xml" value="0.1953125" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_upenghuni.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_user.xml" value="0.25" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_uunit.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/activity_uuser.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/app_bar_homee.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/app_bar_homee_pemilik.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/app_bar_homee_penghuni.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/content_homee.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/content_homee_pemilik.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/content_homee_penghuni.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/create_penghuni.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/fragment_gallery.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/fragment_laporan.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/fragment_logout.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/fragment_pembayaran.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/fragment_pengaduan.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/fragment_pengaduan_penghuni.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/fragment_penghuni.xml" value="0.25" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/fragment_peraturan.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/fragment_slideshow.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/fragment_unit.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/fragment_user.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/layout_cekbayar.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/layout_cekbayar2.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/layout_pembayaran.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/layout_pengaduan.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/layout_pengaduan_penghuni.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/layout_penghuni.xml" value="0.330804248861912" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/layout_search.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/layout_unit.xml" value="0.33" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/layout_user.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/nav_header_homee.xml" value="0.33" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/penghunientery.xml" value="0.43951612903225806" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/select_penghuni.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/tabel_pembayaran.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/tabel_pengaduan.xml" value="0.33" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/tabel_penghuni.xml" value="0.25" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/tabel_unit.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/layout/tabel_user.xml" value="0.24452554744525548" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/menu/activity_main_drawer.xml" value="0.16" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/menu/activity_main_pemilik.xml" value="0.2" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/menu/activity_main_penghuni.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/menu/homee.xml" value="0.209375" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/menu/main_menu.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Aldie/AndroidStudioProjects/RumahKost/app/src/main/res/menu/optionmenu.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

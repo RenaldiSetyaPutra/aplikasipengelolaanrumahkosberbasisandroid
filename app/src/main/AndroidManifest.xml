@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rumahkost">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RumahKost.NoActionBar">
+
+        <activity
+            android:name=".Homee_Penghuni"
+            android:exported="false" />
+        <activity
+            android:name=".Homee_Pemilik"
+            android:exported="false" />
+        <activity
+            android:name=".Homee"
+            android:exported="false"
+            android:label="@string/title_activity_homee"
+            android:theme="@style/Theme.RumahKost.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.penghuni.C_Penghuni"
+            android:exported="true"
+            android:theme="@style/Theme.RumahKost.NoActionBar" />
+        <activity
+            android:name=".ui.penghuni.U_Penghuni"
+            android:exported="false"
+            android:theme="@style/Theme.RumahKost.NoActionBar" />
+        <activity
+            android:name=".ui.unit.C_Unit"
+            android:exported="false"
+            android:theme="@style/Theme.RumahKost.NoActionBar" />
+        <activity
+            android:name=".ui.unit.U_Unit"
+            android:exported="false"
+            android:theme="@style/Theme.RumahKost.NoActionBar" />
+        <activity
+            android:name=".ui.pembayaran.C_Pembayaran"
+            android:exported="false"
+            android:theme="@style/Theme.RumahKost.NoActionBar" />
+        <activity
+            android:name=".ui.pembayaran.U_Pembayaran"
+            android:exported="false"
+            android:theme="@style/Theme.RumahKost.NoActionBar" />
+        <activity
+            android:name=".ui.user.User"
+            android:exported="false"
+            android:theme="@style/Theme.RumahKost.NoActionBar" />
+        <activity
+            android:name=".ui.user.C_user"
+            android:exported="false"
+            android:theme="@style/Theme.RumahKost.NoActionBar" />
+        <activity
+            android:name=".ui.user.U_User"
+            android:exported="false"
+            android:theme="@style/Theme.RumahKost.NoActionBar" />
+        <activity
+            android:name=".ui.laporan.LaporanPenghuni"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:theme="@style/Theme.RumahKost.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.laporan.LaporanUnit"
+            android:exported="false"
+            android:theme="@style/Theme.RumahKost.NoActionBar" />
+        <activity
+            android:name=".ui.laporan.Laporan_Pembayaran"
+            android:exported="false"
+            android:theme="@style/Theme.RumahKost.NoActionBar" />
+        <activity
+            android:name=".ui.laporan.LaporanUser"
+            android:exported="false"
+            android:theme="@style/Theme.RumahKost.NoActionBar" />
+        <activity
+            android:name=".ui.laporan.Laporan_Pengaduan"
+            android:exported="false"
+            android:theme="@style/Theme.RumahKost.NoActionBar" />
+        <activity
+            android:name=".ui.laporan.CekStatus"
+            android:exported="false"
+            android:theme="@style/Theme.RumahKost.NoActionBar" />
+        <activity
+            android:name=".ui.pengaduan.C_Pengaduan"
+            android:exported="false"
+            android:theme="@style/Theme.RumahKost.NoActionBar" />
+        <activity
+            android:name=".ui.pengaduan.U_Pengaduan"
+            android:exported="false"
+            android:theme="@style/Theme.RumahKost.NoActionBar" />
+    </application>
+
+</manifest>

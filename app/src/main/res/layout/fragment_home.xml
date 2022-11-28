@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/theme_paddig"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/top_padding"
+        android:text="W e l c o m e"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="@dimen/theme_paddig"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/theme_paddig"
+            android:orientation="vertical"
+            android:layout_marginRight="40dp">
+
+            <ImageView
+                android:id="@+id/btnpenghuni"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/shape1"
+                android:src="@drawable/ic_menu_penghuni" />
+            <TextView
+                android:id="@+id/total_penghuni"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="8pt"
+                android:text="Total"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:text="@string/penghuni"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/theme_paddig"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp">
+            <ImageView
+                android:id="@+id/btnunit"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/shape1"
+                android:src="@drawable/ic_menu_unit" />
+            <TextView
+                android:id="@+id/total_unit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="8pt"
+                android:text="Total"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:text="@string/unit"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/theme_paddig"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/theme_paddig"
+            android:orientation="vertical"
+            android:layout_marginRight="40dp">
+
+            <ImageView
+                android:id="@+id/btnbayar"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/shape1"
+                android:src="@drawable/ic_menu_pembayaran" />
+            <TextView
+                android:id="@+id/total_bayar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="8pt"
+                android:text="Total"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:text="@string/pembayaran"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/theme_paddig"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp">
+            <ImageView
+                android:id="@+id/btnuser"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/shape1"
+                android:src="@drawable/ic_menu_user" />
+            <TextView
+                android:id="@+id/total_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="8pt"
+                android:text="Total"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:text="@string/user"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/theme_paddig"
+        android:orientation="vertical"
+        android:layout_marginTop="110dp"
+        android:gravity="">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Komplek Griya Baladika Asri Jl. Perjuangan Satu RT/RW 03/15 Drangong Kota Serang "
+            android:textSize="8pt"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+
+</LinearLayout>

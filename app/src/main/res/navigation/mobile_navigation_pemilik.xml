@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_laporan">
+
+    <fragment
+        android:id="@+id/nav_laporan"
+        android:name="com.example.rumahkost.ui.laporan.LaporanFragment"
+        android:label="@string/menu_laporan"
+        tools:layout="@layout/fragment_laporan" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.rumahkost.ui.logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+
+</navigation>

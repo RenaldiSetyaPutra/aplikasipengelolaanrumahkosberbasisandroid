@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.rumahkost.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.rumahkost.ui.logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+
+    <fragment
+        android:id="@+id/nav_penghuni"
+        android:name="com.example.rumahkost.ui.penghuni.PenghuniFragment"
+        android:label="@string/menu_penghuni"
+        tools:layout="@layout/fragment_penghuni" />
+
+    <fragment
+        android:id="@+id/nav_unit"
+        android:name="com.example.rumahkost.ui.unit.UnitFragment"
+        android:label="@string/menu_unit"
+        tools:layout="@layout/fragment_unit" />
+
+    <fragment
+        android:id="@+id/nav_pembayaran"
+        android:name="com.example.rumahkost.ui.pembayaran.PembayaranFragment"
+        android:label="@string/menu_pembayaran"
+        tools:layout="@layout/fragment_pembayaran" />
+
+    <fragment
+        android:id="@+id/nav_laporan"
+        android:name="com.example.rumahkost.ui.laporan.LaporanFragment"
+        android:label="@string/menu_laporan"
+        tools:layout="@layout/fragment_laporan" />
+
+    <fragment
+        android:id="@+id/nav_pengaduan"
+        android:name="com.example.rumahkost.ui.pengaduan.PengaduanFragment"
+        android:label="@string/menu_pengaduan"
+        tools:layout="@layout/fragment_pengaduan" />
+
+    <fragment
+        android:id="@+id/nav_user"
+        android:name="com.example.rumahkost.ui.user.UserFragment"
+        android:label="@string/menu_user"
+        tools:layout="@layout/fragment_user" />
+
+</navigation>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="@dimen/theme_paddig"
+    tools:context=".ui.unit.C_Unit">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/theme_paddig">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/top_padding"
+            android:text="Tambah Unit"
+            android:textSize="@dimen/judul"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="ID"
+            android:textSize="@dimen/tv"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/etid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLength="100"
+            android:paddingBottom="@dimen/bottom_padding"
+            android:textSize="@dimen/et" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:text="Nama Unit"
+            android:textSize="@dimen/tv"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etnama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nama Unit"
+            android:inputType="text"
+            android:maxLength="100"
+            android:paddingBottom="@dimen/bottom_padding"
+            android:textSize="@dimen/et" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fasilitas"
+            android:textSize="@dimen/tv"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding"
+            android:entries="@array/fasilitas_array"
+            android:paddingBottom="@dimen/bottom_padding" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga Sewa"
+            android:textSize="@dimen/tv"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding"
+            android:entries="@array/harga_array"
+            android:paddingBottom="@dimen/bottom_padding" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penyewa"
+            android:textSize="@dimen/tv"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLength="100"
+            android:paddingBottom="@dimen/bottom_padding"
+            android:textSize="@dimen/et" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="simpan"
+        android:text="Simpan"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        tools:ignore="OnClick" />
+</RelativeLayout>

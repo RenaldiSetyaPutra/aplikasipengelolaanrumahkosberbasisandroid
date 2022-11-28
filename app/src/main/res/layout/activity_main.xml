@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="15dp"
+        android:elevation="5dp"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="50dp"
+            android:text="FORM LOGIN"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="100dp"
+            android:text="RUMAH KOST"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="200dp">
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="20dp"
+                android:hint="Username"
+                android:importantForAutofill="no"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:drawablePadding="20dp"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Login"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lupa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:padding="6dp"
+                android:text="Keluar"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

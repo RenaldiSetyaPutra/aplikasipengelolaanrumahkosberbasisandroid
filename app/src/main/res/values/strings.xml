@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Rumah Kost</string>
+    <string name="title_activity_homee">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_penghuni">Penghuni</string>
+    <string name="menu_user">User</string>
+    <string name="menu_pembayaran">Pembayaran</string>
+    <string name="menu_unit">Unit</string>
+    <string name="menu_laporan">Laporan</string>
+    <string name="menu_pengaduan">Pengaduan</string>
+
+
+    <string name="welcome">W e l c o m e !</string>
+    <string name="galeri">G a l e r y</string>
+    <string name="logout">Logout</string>
+    <string name="penghuni">Penghuni</string>
+    <string name="unit">Unit</string>
+    <string name="pembayaran">Pembayaran</string>
+    <string name="peraturan">Peraturan</string>
+    <string name="user">User</string>
+
+    <string-array name="bulan_array">
+        <item>Pilih Bulan</item>
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Maret</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Agustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Desember</item>
+    </string-array>
+
+    <string-array name="status_user">
+        <item>Pilih Status</item>
+        <item>Admin</item>
+        <item>Pemilik</item>
+        <item>Penghuni</item>
+    </string-array>
+
+    <string-array name="status_bayar">
+        <item>Pilih Status</item>
+        <item>Lunas</item>
+        <item>Belum Membayar</item>
+    </string-array>
+
+    <string-array name="status_unit">
+        <item>Pilih Status</item>
+        <item>Disewakan</item>
+        <item>Kosong</item>
+    </string-array>
+
+    <string-array name="fasilitas_array">
+        <item>Pilih Fasilitas</item>
+        <item>Kipas</item>
+        <item>Lemari</item>
+        <item>Kipas + Lemari</item>
+    </string-array>
+
+    <string-array name="harga_array">
+        <item>Pilih Harga</item>
+        <item>Rp500.000,00 </item>
+    </string-array>
+
+
+</resources>

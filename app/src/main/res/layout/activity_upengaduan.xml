@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="@dimen/theme_paddig"
+    tools:context=".ui.pengaduan.U_Pengaduan">
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/theme_paddig">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/top_padding"
+            android:text="Ubah Pengaduan"
+            android:textSize="@dimen/judul"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:text="ID"
+            android:textSize="@dimen/tv"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/etid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/bottom_padding"
+            android:textSize="@dimen/tv" />/>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Penghuni"
+            android:textSize="@dimen/tv"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/bottom_padding"
+            android:textSize="@dimen/tv" />
+
+        <EditText
+            android:id="@+id/namalama"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:background="@null"
+            android:hint="username" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit Yang Ditinggali"
+            android:textSize="@dimen/tv"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/unit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/bottom_padding"
+            android:textSize="@dimen/tv" />/>
+
+        <EditText
+            android:id="@+id/unitlama"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:background="@null"
+            android:hint="username" />
+
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Pembayaran"
+            android:textSize="@dimen/tv"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/tglbyr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:enabled="false"
+                android:hint="Select Date..."
+                android:paddingRight="150dp"
+                android:paddingBottom="@dimen/bottom_padding"
+                android:textSize="@dimen/et" />
+
+            <Button
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tv"
+            android:textStyle="bold"
+            android:text="Pengaduan" />
+        <EditText
+            android:id="@+id/pengaduan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="200"
+            android:textSize="@dimen/et"
+            android:paddingBottom="@dimen/bottom_padding"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/pengaduanlama"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:background="@null"
+            android:hint="username" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="simpan"
+        android:text="Simpan"
+        tools:ignore="OnClick" />
+</RelativeLayout>
